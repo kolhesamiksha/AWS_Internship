@@ -1,5 +1,8 @@
 # AWS_Training and Internship
 
+![image](https://user-images.githubusercontent.com/73512374/180659323-36a99264-ff5b-4e95-92f7-a32d2d066dd0.png)
+
+
 In this Task Attached Frontend(Wordpress) to Backend(RDS database) using Loan Balancer.
 
 1. Launched aws-linux instance over aws and downloaded httpd, php7.3, and wordpress latest.tar.sh file.
@@ -9,6 +12,7 @@ In this Task Attached Frontend(Wordpress) to Backend(RDS database) using Loan Ba
 whatever information was there into that page should be made changes in the /var/www/html/wp-config-sample.php and after running the configuration. wordpress got successfully launched over our instance.
 same procedure is followed for another EC-2 instance and lastly Application Load Balancer created and attatched to both instances.
 Hence wordpress succesfully get able to accessed using load balancer.
+
 
 
 ### EC-2
