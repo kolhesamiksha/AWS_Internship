@@ -7,6 +7,7 @@ In this Task Attached Frontend(Wordpress) to Backend(RDS database) using Load Ba
 
 1. Launched aws-linux instance over aws and downloaded httpd, php7.3, and wordpress latest.tar.sh file.
 2. move the latest.tar.gz file to cd /var/www/html.
+
 why /var/www/html ??
   1. it serves the site without 403 errors
   2. gives apache access to folders and files.
