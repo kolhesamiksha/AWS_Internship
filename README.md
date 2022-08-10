@@ -15,7 +15,7 @@ why /var/www/html ??
   4. gives read/write permissions on all files/folders.
  
 4. created RDS instance.
-5. After running the private Ip address wordpress configuration page get displayed by feeding database name, admin, password, RDS endpoint information. a configuration details page arises.
+5. After running the private Ip address on the browser wordpress configuration page get displayed, then by feeding database name, admin, password, RDS endpoint information. a configuration details page arises.
 whatever information was there into that page should be made changes in the /var/www/html/wp-config-sample.php and after running the configuration. wordpress got successfully launched over our instance.
 same procedure is followed for another EC-2 instance and lastly Application Load Balancer created and attatched to both instances.
 Hence wordpress succesfully get able to accessed using load balancer.
@@ -52,6 +52,11 @@ In addition to the security in your database package, you can help control who c
 
 A load balancer serves as the single point of contact for clients. Clients send requests to the load balancer, and the load balancer sends them to targets, such as EC2 instances. To configure your load balancer, you create target groups, and then register targets with your target groups. You also create listeners to check for connection requests from clients, and listener rules to route requests from clients to the targets in one or more target groups.
 It's helful to distribute the workload across different services/platforms.
+there are mainly 3 types of load balancers
+- Application Load Balancer
+- Gateway Load Balancer
+- Network Load Balancer
+- Classic Load Balancer
 
 
 
