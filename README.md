@@ -15,6 +15,7 @@ Hence wordpress succesfully get able to accessed using load balancer.
 
 
 
+
 ### EC-2
 
 An EC2 instance is nothing but a virtual server in Amazon Web services terminology. It stands for Elastic Compute Cloud. It is a web service where an AWS subscriber can request and provision a compute server in AWS cloud.
