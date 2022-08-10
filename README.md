@@ -45,7 +45,7 @@ A load balancer serves as the single point of contact for clients. Clients send 
 It's helful to distribute the workload across different services/platforms.
 
 
-Learning from the task:
+### Learning from the task:
 
 1. I learned how to attach application and classic load balancer to 2 EC-2 instances and how to work on them.
-2. worked on RDS and able to launch a website on wordpress.
+2. worked on RDS and able to launch a wordpress website.
