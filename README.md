@@ -43,3 +43,9 @@ In addition to the security in your database package, you can help control who c
 
 A load balancer serves as the single point of contact for clients. Clients send requests to the load balancer, and the load balancer sends them to targets, such as EC2 instances. To configure your load balancer, you create target groups, and then register targets with your target groups. You also create listeners to check for connection requests from clients, and listener rules to route requests from clients to the targets in one or more target groups.
 It's helful to distribute the workload across different services/platforms.
+
+
+Learning from the task:
+
+1. I learned how to attach application and classic load balancer to 2 EC-2 instances and how to work on them.
+2. worked on RDS and able to launch a website on wordpress.
