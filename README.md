@@ -7,8 +7,14 @@ In this Task Attached Frontend(Wordpress) to Backend(RDS database) using Load Ba
 
 1. Launched aws-linux instance over aws and downloaded httpd, php7.3, and wordpress latest.tar.sh file.
 2. move the latest.tar.gz file to cd /var/www/html.
-3. created RDS instance.
-4. After running the private Ip address wordpress configuration page get displayed by feeding database name, admin, password, RDS endpoint information. a configuration details page arises.
+why /var/www/html ??
+  1. it serves the site without 403 errors
+  2. gives apache access to folders and files.
+  3. gives the user "owner" permissions over the add of files/folder's.
+  4. gives read/write permissions on all files/folders.
+ 
+4. created RDS instance.
+5. After running the private Ip address wordpress configuration page get displayed by feeding database name, admin, password, RDS endpoint information. a configuration details page arises.
 whatever information was there into that page should be made changes in the /var/www/html/wp-config-sample.php and after running the configuration. wordpress got successfully launched over our instance.
 same procedure is followed for another EC-2 instance and lastly Application Load Balancer created and attatched to both instances.
 Hence wordpress succesfully get able to accessed using load balancer.
