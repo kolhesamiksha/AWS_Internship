@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/73512374/180659323-36a99264-ff5b-4e95-92f7-a32d2d066dd0.png)
 
 
-In this Task Attached Frontend(Wordpress) to Backend(RDS database) using Loan Balancer.
+In this Task Attached Frontend(Wordpress) to Backend(RDS database) using Load Balancer.
 
 1. Launched aws-linux instance over aws and downloaded httpd, php7.3, and wordpress latest.tar.sh file.
 2. move the latest.tar.gz file to cd /var/www/html.
@@ -12,7 +12,6 @@ In this Task Attached Frontend(Wordpress) to Backend(RDS database) using Loan Ba
 whatever information was there into that page should be made changes in the /var/www/html/wp-config-sample.php and after running the configuration. wordpress got successfully launched over our instance.
 same procedure is followed for another EC-2 instance and lastly Application Load Balancer created and attatched to both instances.
 Hence wordpress succesfully get able to accessed using load balancer.
-
 
 
 
@@ -25,6 +24,7 @@ An on-demand EC2 instance is an offering from AWS where the subscriber/user can 
 The instance will be charged per hour with different rates based on the type of the instance chosen. AWS provides multiple instance types for the respective business needs of the user.
 
 Thus, you can rent an instance based on your own CPU and memory requirements and use it as long as you want. You can terminate the instance when it’s no more used and save on costs.
+
 
 
 ### RDS
@@ -40,10 +40,12 @@ You can get high availability with a primary instance and a synchronous secondar
 
 In addition to the security in your database package, you can help control who can access your RDS databases by using AWS Identity and Access Management (IAM) to define users and permissions. You can also help protect your databases by putting them in a virtual private cloud (VPC).
 
+
 ### Load Balancer
 
 A load balancer serves as the single point of contact for clients. Clients send requests to the load balancer, and the load balancer sends them to targets, such as EC2 instances. To configure your load balancer, you create target groups, and then register targets with your target groups. You also create listeners to check for connection requests from clients, and listener rules to route requests from clients to the targets in one or more target groups.
 It's helful to distribute the workload across different services/platforms.
+
 
 
 ### Learning from the task:
