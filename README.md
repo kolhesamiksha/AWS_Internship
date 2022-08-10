@@ -1,4 +1,4 @@
-# AWS_Training and Internship
+# Launching Wordpress using EC-2 and Load Balancer
 
 ![image](https://user-images.githubusercontent.com/73512374/180659323-36a99264-ff5b-4e95-92f7-a32d2d066dd0.png)
 
